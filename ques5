@@ -1,0 +1,7 @@
+var a = obj.sort(function(a,b) {
+    return (a.id - b.id);
+});
+var b = a.sort(function(a,b) {
+    return (a.name - b.name);
+});
+console.log(b);
