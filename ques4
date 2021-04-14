@@ -1,0 +1,5 @@
+await function one(){
+    await fetch("http://example.com/api/get/1")
+    .then(response=>response.json())
+    .then(result=>printGet(result))
+}
